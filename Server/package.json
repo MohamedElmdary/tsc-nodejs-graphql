@@ -1,0 +1,42 @@
+{
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "ts-node ./src/app.ts",
+    "watch": "nodemon --config nodemon.json"
+  },
+  "name": "market-server",
+  "version": "1.0.0",
+  "description": "server side for market using nodejs-graghql",
+  "main": "app.ts",
+  "repository": "repo",
+  "author": "MohamedElmdary",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/compression": "^0.0.36",
+    "@types/helmet": "^0.0.42",
+    "@types/jsonwebtoken": "^8.3.0",
+    "@types/mongoose": "^5.3.4",
+    "@types/node": "^10.12.12",
+    "@types/validator": "^9.4.3",
+    "babel-loader": "^8.0.4",
+    "nodemon": "^1.18.7",
+    "ts-loader": "^5.3.1",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.3",
+    "graphql-yoga": "^1.16.7",
+    "helmet": "^3.15.0",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.15",
+    "validator": "^10.9.0"
+  }
+}
